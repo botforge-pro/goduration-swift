@@ -1,3 +1,5 @@
+[![Tests](https://github.com/botforge-pro/goduration-swift/actions/workflows/test.yml/badge.svg)](https://github.com/botforge-pro/goduration-swift/actions/workflows/test.yml)
+
 # goduration-swift
 
 Go-style duration parsing for Swift.
