@@ -1,0 +1,638 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.xctest/Contents/MacOS/GoDurationPackageTests",
+      "packagePath" : "/Users/smee/Developer/apakabar-core/goduration-swift",
+      "productName" : "GoDurationPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GoDuration-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/sources",
+      "importPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/Sources/GoDuration/GoDuration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoDuration",
+      "moduleOutputPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDuration.swiftmodule",
+      "objects" : [
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/GoDuration.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/include/GoDuration-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "goduration_swift"
+      ],
+      "outputFileMapPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/GoDuration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDuration.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/smee/Developer/apakabar-core/goduration-swift/Sources/GoDuration/GoDuration.swift"
+      ],
+      "tempsPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GoDurationPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/sources",
+      "importPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDurationTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoDurationPackageTests",
+      "moduleOutputPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDurationPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/include/GoDurationPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "goduration_swift"
+      ],
+      "outputFileMapPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDurationPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.GoDurationTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/sources",
+      "importPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/Tests/GoDurationTests/GoDurationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDuration.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GoDurationTests",
+      "moduleOutputPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDurationTests.swiftmodule",
+      "objects" : [
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "goduration_swift"
+      ],
+      "outputFileMapPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules/GoDurationTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/smee/Developer/apakabar-core/goduration-swift/Tests/GoDurationTests/GoDurationTests.swift"
+      ],
+      "tempsPath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "GoDuration" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoDuration",
+      "-package-name",
+      "goduration_swift",
+      "-c",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/Sources/GoDuration/GoDuration.swift",
+      "-I",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/include/GoDuration-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "goduration_swift",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GoDurationPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoDurationPackageTests",
+      "-package-name",
+      "goduration_swift",
+      "-c",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/include/GoDurationPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "goduration_swift",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "GoDurationTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GoDurationTests",
+      "-package-name",
+      "goduration_swift",
+      "-c",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/Tests/GoDurationTests/GoDurationTests.swift",
+      "-I",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "goduration_swift",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "GoDuration" : [
+
+    ],
+    "GoDurationPackageTests" : [
+      "GoDurationTests",
+      "GoDuration"
+    ],
+    "GoDurationTests" : [
+      "GoDuration"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/Sources/GoDuration/GoDuration.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/sources"
+    },
+    "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/sources"
+    },
+    "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDuration.build/GoDuration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/smee/Developer/apakabar-core/goduration-swift/Tests/GoDurationTests/GoDurationTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/sources"
+    },
+    "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

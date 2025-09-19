@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/master.swiftdeps"
+  },
+  "/Users/smee/Developer/apakabar-core/goduration-swift/Tests/GoDurationTests/GoDurationTests.swift": {
+    "dependencies": "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests.d",
+    "object": "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests.swift.o",
+    "swiftmodule": "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests.swiftdeps",
+    "diagnostics": "/Users/smee/Developer/apakabar-core/goduration-swift/.build/arm64-apple-macosx/debug/GoDurationTests.build/GoDurationTests.dia"
+  }
+}
