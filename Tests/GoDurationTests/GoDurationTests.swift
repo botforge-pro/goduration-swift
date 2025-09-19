@@ -22,7 +22,7 @@ struct GoDurationTests {
         ("1h15m30.918s", 4530.918)
     ])
     func parseValidDurations(input: String, expectedSeconds: Double) throws {
-        let result = try parse(input)
+        let result = try GoDuration.parse(input)
         #expect(result == expectedSeconds)
     }
     
@@ -36,7 +36,7 @@ struct GoDurationTests {
     ])
     func parseInvalidDurations(invalidInput: String) throws {
         #expect(throws: GoDurationError.self) {
-            try parse(invalidInput)
+            try GoDuration.parse(invalidInput)
         }
     }
 }

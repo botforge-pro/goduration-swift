@@ -1,0 +1,34 @@
+# SwiftLint configuration for sm2-swift
+
+included:
+  - Sources
+  - Tests
+
+excluded:
+  - .build
+  - .swiftpm
+  - Package.swift
+
+# Rule configurations
+identifier_name:
+  excluded:
+    - ef  # SM-2 algorithm terminology
+    - p1  # Mathematical parameter names
+    - p2
+    - p3
+
+file_length:
+  warning: 500
+  error: 500
+
+type_body_length:
+  warning: 300
+  error: 300
+
+function_body_length:
+  warning: 60
+  error: 60
+
+line_length:
+  warning: 120
+  error: 120

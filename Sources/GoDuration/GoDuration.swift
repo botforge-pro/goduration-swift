@@ -8,7 +8,8 @@ public enum GoDurationError: Error {
     case invalidUnit(String)
 }
 
-public func parse(_ durationString: String) throws -> TimeInterval {
+public enum GoDuration {
+    public static func parse(_ durationString: String) throws -> TimeInterval {
     let s = durationString.trimmingCharacters(in: .whitespaces)
     
     if s.isEmpty {
@@ -90,4 +91,5 @@ public func parse(_ durationString: String) throws -> TimeInterval {
     }
     
     return totalMinutes * 60 // Convert minutes to seconds for TimeInterval
+    }
 }
