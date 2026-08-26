@@ -5,7 +5,7 @@ import Foundation
 struct GoDurationTests {
     @Test(arguments: [
         ("1m", 60),
-        ("2h", 7200), 
+        ("2h", 7200),
         ("2h30m", 9000),
         ("-8h", -28800),
         ("1s", 1),
@@ -25,10 +25,10 @@ struct GoDurationTests {
         let result = try GoDuration.parse(input)
         #expect(result == expectedSeconds)
     }
-    
+
     @Test(arguments: [
         "",
-        "1", 
+        "1",
         "1x",
         "1m4z",
         "h1",
