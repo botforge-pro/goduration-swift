@@ -13,6 +13,9 @@ let package = Package(
             targets: ["GoDuration"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/swiftlang/swift-docc-plugin", from: "1.3.0")
+    ],
     targets: [
         .target(
             name: "GoDuration"
