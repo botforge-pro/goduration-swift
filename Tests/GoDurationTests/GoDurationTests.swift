@@ -41,4 +41,43 @@ struct GoDurationTests {
       try GoDuration.parse(invalidInput)
     }
   }
+
+  @Test("errors preserve the rejected input detail")
+  func errorDetails() {
+    expectError("", matching: .emptyDurationString)
+    expectError("h1", matching: .expectedNumber(0))
+    expectError("  -h1  ", matching: .expectedNumber(0))
+    expectError("1.2.3m", matching: .expectedNumber(5))
+    expectError("1", matching: .missingUnit(1))
+    expectError("1xy", matching: .invalidUnit("x"))
+  }
+
+  @Test("only surrounding Foundation whitespace is ignored")
+  func whitespace() throws {
+    #expect(try GoDuration.parse("\t 1m \t") == 60)
+    #expect(throws: GoDurationError.self) { try GoDuration.parse("1m 30s") }
+    #expect(throws: GoDurationError.self) { try GoDuration.parse("\n1m\n") }
+  }
+
+  private func expectError(_ input: String, matching expected: GoDurationError) {
+    do {
+      _ = try GoDuration.parse(input)
+      Issue.record("Expected parsing to fail for \(input)")
+    } catch let error as GoDurationError {
+      switch (error, expected) {
+      case (.emptyDurationString, .emptyDurationString):
+        break
+      case (.expectedNumber(let actual), .expectedNumber(let expected)) where actual == expected:
+        break
+      case (.missingUnit(let actual), .missingUnit(let expected)) where actual == expected:
+        break
+      case (.invalidUnit(let actual), .invalidUnit(let expected)) where actual == expected:
+        break
+      default:
+        Issue.record("Unexpected error \(error) for \(input)")
+      }
+    } catch {
+      Issue.record("Unexpected error type \(error) for \(input)")
+    }
+  }
 }

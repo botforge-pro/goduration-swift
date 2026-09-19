@@ -1,16 +1,45 @@
 import Foundation
 
+/// A reason a duration string could not be parsed.
 public enum GoDurationError: Error {
+  /// An input value had an unsupported runtime type, named by the associated string.
+  ///
+  /// ``GoDuration/parse(_:)`` does not produce this case because its input is statically
+  /// typed as `String`.
   case invalidType(String)
+  /// The string was empty after removing leading and trailing Foundation `.whitespaces`.
+  ///
+  /// Line breaks are not part of that character set and do not produce this error.
   case emptyDurationString
+  /// A number could not be parsed; the character offset is where scanning stopped.
+  ///
+  /// The offset is measured in Swift `Character` values from the trimmed duration body,
+  /// after removing its leading sign. When no numeric characters were present, the
+  /// offset is where scanning began.
   case expectedNumber(Int)
+  /// The associated parsed number had no following unit.
   case missingUnit(Double)
+  /// The associated single-character unit token is not supported.
   case invalidUnit(String)
 }
 
+/// Parses duration strings written in Go's duration syntax.
 public enum GoDuration {
-  /// Reads a Go duration string — `"1h30m"`, `"-2.5s"`, `"300ms"` — as
-  /// a count of seconds.
+  /// Reads a Go duration string as a count of seconds.
+  ///
+  /// A duration contains one or more decimal number and unit pairs, optionally preceded
+  /// by `+` or `-`. Supported units are `ns`, `us`, `µs`, `μs`, `ms`, `s`, `m`, and
+  /// `h`; the unitless string `0` is also accepted. Leading and trailing characters in
+  /// Foundation's `.whitespaces` set are ignored, but line breaks and whitespace between
+  /// components are rejected.
+  ///
+  /// - Parameter durationString: The duration to parse, such as `"1h30m"`, `"-2.5s"`,
+  ///   or `"300ms"`.
+  /// - Returns: The represented duration in seconds.
+  /// - Throws: ``GoDurationError/emptyDurationString`` for an empty trimmed input;
+  ///   ``GoDurationError/expectedNumber(_:)`` when a component's number cannot be parsed;
+  ///   ``GoDurationError/missingUnit(_:)`` when a number has no unit; or
+  ///   ``GoDurationError/invalidUnit(_:)`` for an unsupported unit token.
   public static func parse(_ durationString: String) throws -> TimeInterval {
     let trimmed = durationString.trimmingCharacters(in: .whitespaces)
     if trimmed.isEmpty {
