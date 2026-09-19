@@ -1,11 +1,25 @@
 name: Tests
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
     runs-on: macos-latest
     
     steps:
-    - uses: actions/checkout@v7
-    - run: make test
+      - uses: actions/checkout@v7
+
+      - name: Install tools
+        run: make install-tools
+
+      - name: Swift version
+        run: swift --version
+
+      - name: Build
+        run: make build

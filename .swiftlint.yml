@@ -1,21 +1,18 @@
-# SwiftLint configuration for sm2-swift
-
 included:
   - Sources
   - Tests
 
 excluded:
   - .build
-  - .swiftpm
   - Package.swift
 
-# Rule configurations
-identifier_name:
-  excluded:
-    - ef  # SM-2 algorithm terminology
-    - p1  # Mathematical parameter names
-    - p2
-    - p3
+disabled_rules:
+  # swift-format places the brace after a wrapped declaration on the next line;
+  # SwiftLint's opening_brace rule requires the opposite layout.
+  - opening_brace
+  # swift-format keeps trailing commas in multiline collections; formatting must
+  # not become mutually destructive between the two tools.
+  - trailing_comma
 
 file_length:
   warning: 500
