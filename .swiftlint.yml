@@ -10,9 +10,9 @@ disabled_rules:
   # swift-format places the brace after a wrapped declaration on the next line;
   # SwiftLint's opening_brace rule requires the opposite layout.
   - opening_brace
-  # swift-format keeps trailing commas in multiline collections; formatting must
-  # not become mutually destructive between the two tools.
-  - trailing_comma
+
+trailing_comma:
+  mandatory_comma: true
 
 file_length:
   warning: 500
